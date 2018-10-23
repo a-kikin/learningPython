@@ -1,6 +1,8 @@
-dayNumber = 138
+dayNumber = 235
+dayStart = 1
 
 week = dayNumber // 7
-rest = dayNumber % 7 - 1
+restDays = dayNumber % 7
+rest = (dayNumber % 7) + dayStart
 
-print(rest)
+print(week, restDays, rest)
