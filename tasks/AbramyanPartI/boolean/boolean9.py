@@ -1,4 +1,4 @@
 a = 22
-b = 53
+b = 52
 
-print((a or b) % 2 != 0)
+print(a % 2 != 0 or b % 2 !=0)

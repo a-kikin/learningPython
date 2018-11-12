@@ -1,3 +1,3 @@
 a = 21
-b = 51
-print(a and b % 2 !=0)
+b = 52
+print(a % 2 !=0 and b % 2 != 0)
